@@ -11,3 +11,9 @@ function menuToggle() {
     toggleMenu.classList.toggle('active');
     navigation.classList.toggle('active');
 }
+function menuToggle() {
+    const toggleMenu = document.querySelector('.toggleMenu');
+    const nevigation = document.querySelector('.nevigation');
+    toggleMenu.classList.toggle('active')
+    nevigation.classList.toggle('active')
+}
